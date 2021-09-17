@@ -54,12 +54,6 @@
           },
           {
             "$ref": "#/components/parameters/oidParameter"
-          },
-          {
-            "$ref": "#/components/parameters/firstParameter"
-          },
-          {
-            "$ref": "#/components/parameters/afterParameter"
           }
         ],
         "responses": {
