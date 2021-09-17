@@ -106,25 +106,6 @@
           "example": "a1bf367b3af680b1182cc52bb77ba095764a11f9",
           "pattern": "^[0-9a-f]{40}$"
         }
-      },
-      "firstParameter": {
-        "name": "first",
-        "description": "The maximum number of repositories to return.",
-        "in": "query",
-        "schema": {
-          "type": "integer",
-          "default": 30,
-          "minimum": 0,
-          "maximum": 30
-        }
-      },
-      "afterParameter": {
-        "name": "after",
-        "description": "Optional cursor returned by a previous request in the Link header for pagination. If supplied, the list will continue after the item this cursor refers to.",
-        "in": "query",
-        "schema": {
-          "type": "string"
-        }
       }
     },
     "schemas": {
