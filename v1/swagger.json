@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://mini-git.fsdev.org/"
+      "url": "http://localhost:5000/"
     }
   ],
   "paths": {
